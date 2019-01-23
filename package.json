@@ -18,9 +18,7 @@
         "express": "4.16.2",
         "helmet": "3.10.0",
         "path": "0.12.7",
-        "vivus": "^0.4.4"
-    },
-    "devDependencies": {
+        "vivus": "^0.4.4",
         "gulp": "3.9.1",
         "gulp-clean-css": "3.9.3",
         "gulp-concat": "2.6.1",
