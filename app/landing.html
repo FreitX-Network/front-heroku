@@ -1,7 +1,6 @@
     <!-- Landing page -->
 <div ng-controller="landingController">
 
-
     <!-- Menu [END] -->
     <header-tag></header-tag>
 
@@ -339,22 +338,57 @@
                 </div>
             </div>
         </section>
-        <!-- <section id="Partner" class="scrollsections">
+        <section id="Advisors" class="scrollsections">
             <div class="con_lay">
                   <div class="containter_p slideanim fadeInUp">
                       <div class="left_bk">
                           <h1>
-                             PARTNERS
+                            Advisor
                               <span class="blue_ln"></span>
                               <h3></h3>
                           </h1>
-                          <div class="partner_card  page_card">
+                          <div class="team_card  page_card">
 
+                              <div class="team_list_group">
+                                <div class="team_list">
+                                    <div class="team_list_item ad_1">
+                                        <a href="https://www.linkedin.com/in/shaundjie/" target="_blank">
+                                            <i class="fab fa-linkedin"></i>
+                                            <div class="name_block">
+                                                <h3>Shaun Djie</h3>
+                                                <hr>
+                                                <p>Co-Founder & DigixGlobal</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="team_list_item ad_2">
+                                        <a href="https://www.linkedin.com/in/kai-c-chng-540b339/"  target="_blank">
+                                            <i class="fab fa-linkedin"></i>
+                                            <div class="name_block">
+                                                <h3>Kai C. Chng</h3>
+                                                <hr>
+                                                <p>Co-Founder & CEO of DigixGlobal</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="team_list_item ad_3">
+                                        <a href="https://www.linkedin.com/in/david-kolmakhidze/" target="_blank">
+                                            <i class="fab fa-linkedin"></i>
+                                            <div class="name_block">
+                                                <h3>David Kolmakhidze</h3>
+                                                <hr>
+                                                <p>COO of Credits</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+
+                              </div>
                           </div>
                       </div>
                   </div>
               </div>
-        </section> -->
+        </section>
         <section id="Team" class="scrollsections">
             <div class="con_lay">
                   <div class="containter_p slideanim fadeInUp">
@@ -627,14 +661,12 @@
                       <div class="footer-navigation">
                         <div class="footer-links-holder">
                           <ul class="footer-links">
-                            <li><a href="">Private</a></li>
-                            <li><a href="">Prototype</a></li>
+                              <li><a href="/kit" target="_blank">Explorer</a></li>
                           </ul>
                         </div>
                         <div class="footer-links-holder">
                           <ul class="footer-links">
-                            <li><a href="">FAQ</a></li>
-                            <li><a href="/mediaKite" target="_blank">Media Kit</a></li>
+                            <li><a href="/kit" target="_blank">Media Kit</a></li>
                             <li><a href="">Contact Us</a></li>
                           </ul>
                         </div>
@@ -649,7 +681,7 @@
                   </div>
               </div>
               <div class="social_media">
-                  <span class="copy_right">© 2018 FreitX Network. All Rights Reserved.</span>
+                  <span class="copy_right">© 2019 FreitX Network. All Rights Reserved.</span>
 
                   <div class="soc_md_link">
                       <a href="https://www.reddit.com/r/freitx/" target="_blank" class="icon red"></a>
@@ -674,13 +706,12 @@
                 <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
                     <a class="menuitem" href="#h">Home</a>
                     <a class="menuitem" href="#n">Network</a>
-                    <a class="menuitem" href="#t">Token</a>
+                    <a class="menuitem" href="#t">Tokens</a>
                     <a class="menuitem" href="#a">Architecture</a>
-                    <!-- <a class="menuitem" href="#u">Usecases</a> -->
-                    <!-- <a class="menuitem" href="#p">Partner</a> -->
-                    <a class="menuitem" href="#Te">Team</a>
+                    <a class="menuitem" href="#ad">Advisors</a>
+                    <a class="menuitem" href="#te">Team</a>
                     <a class="menuitem" href="#r">Roadmap</a>
-                    <a class="menuitem" href="#c">Contact</a>
+                    <a class="menuitem" href="#c">More</a>
         		</nav>
         		<button id="showRight">
                       <a id="burger-toggle"><span></span></a>
@@ -707,10 +738,10 @@
                           </div>
                           <div class="button_line">
                               <div class="btn_link_parent_gradient">
-                                  <a class="btn_link" href="../onepager.pdf" target="_blank">Whitepaper</a>
+                                  <a class="btn_link" href="../whitepaper.pdf" target="_blank">Whitepaper</a>
                               </div>
                               <div class="btn_link_parent_gradient">
-                                  <a class="btn_link b" href="http://t.me/freitx" target="_blank">Lightpaper</a>
+                                  <a class="btn_link b" href="../lightpaper.pdf" target="_blank">Lightpaper</a>
                               </div>
                               <div class="btn_link_parent_gradient">
                                   <a class="btn_link b" href="../onepager.pdf" target="_blank">Onepager</a>
@@ -846,67 +877,55 @@
                   </div>
               </div>
         </div>
-        <!-- <div class="screen_list us">
-            <div id="u" class="con_lay">
-                <div class="containter_p slideanim fadeInUp">
-                    <div class="left_bk">
-                        <h1>USECASES
-                          <span class="blue_ln"></span>
-                          <h3>FREITX NETWORK</h3>
-                        </h1>
-                        <div class="usecases_card  page_card">
-                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-                              <ol class="carousel-indicators">
-                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" data-slide-to="2"></li>
-                              </ol>
-
-
-                              <div class="carousel-inner">
-                                <div class="item active">
-                                  <img src="https://images.unsplash.com/photo-1491484815100-6f2890d04007?auto=format&fit=crop&w=750&q=80" alt="Los Angeles" style="width:100%;">
-                                </div>
-
-                                <div class="item">
-                                  <img src="https://images.unsplash.com/photo-1491484815100-6f2890d04007?auto=format&fit=crop&w=750&q=80" alt="Chicago" style="width:100%;">
-                                </div>
-
-                                <div class="item">
-                                  <img src="https://images.unsplash.com/photo-1491484815100-6f2890d04007?auto=format&fit=crop&w=750&q=80" alt="New york" style="width:100%;">
-                                </div>
+        <div class="screen_list ad">
+            <div id="ad" class="con_lay">
+                  <div class="containter_p slideanim fadeInUp">
+                      <div class="left_bk">
+                          <h1>
+                             ADVISORS
+                              <span class="blue_ln"></span>
+                              <h3>FREITX NETWORK</h3>
+                          </h1>
+                          <div class="team_card  page_card">
+                              <div class="team_list_group">
+                                  <div class="team_list mob">
+                                      <div class="team_list_item ad_1">
+                                          <a href="https://www.linkedin.com/in/shaundjie/" target="_blank">
+                                              <i class="fab fa-linkedin"></i>
+                                              <div class="name_block">
+                                                  <h3>Shaun Djie</h3>
+                                                  <hr>
+                                                  <p>Co-Founder & DigixGlobal</p>
+                                              </div>
+                                          </a>
+                                      </div>
+                                      <div class="team_list_item ad_2">
+                                          <a href="https://www.linkedin.com/in/kai-c-chng-540b339/"  target="_blank">
+                                              <i class="fab fa-linkedin"></i>
+                                              <div class="name_block">
+                                                  <h3>Kai C. Chng</h3>
+                                                  <hr>
+                                                  <p>Co-Founder & CEO of DigixGlobal</p>
+                                              </div>
+                                          </a>
+                                      </div>
+                                      <div class="team_list_item ad_3">
+                                          <a href="https://www.linkedin.com/in/david-kolmakhidze/" target="_blank">
+                                              <i class="fab fa-linkedin"></i>
+                                              <div class="name_block">
+                                                  <h3>David Kolmakhidze</h3>
+                                                  <hr>
+                                                  <p>Marketing Advisor</p>
+                                              </div>
+                                          </a>
+                                      </div>
+                                  </div>
                               </div>
-
-
-                              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                                  <i class="fas fa-angle-left"></i>
-                              </a>
-                              <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                                <i class="fas fa-angle-right"></i>
-                              </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- <div class="screen_list">
-            <div id="Pa" class="con_lay">
-                <div class="containter_p slideanim fadeInUp">
-                    <div class="left_bk">
-                        <h1>
-                            PARTNER
-                            <span class="blue_ln"></span>
-                            <h3>FREITX NETWORK</h3>
-                        </h1>
-                        <div class="partner_card  page_card">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
+                          </div>
+                      </div>
+                  </div>
+              </div>
+        </div>
         <div class="screen_list te">
             <div id="te" class="con_lay">
                   <div class="containter_p slideanim fadeInUp">
@@ -1134,22 +1153,19 @@
         <div class="screen_list footer">
             <div id="c" class="f_cont">
                 <div class="footer-wrapper">
-                    <!-- <div class="logo">
+                    <div class="logo">
                         <a href="/" ng-click="goToSection('home')"></a>
-                    </div> -->
+                    </div>
                     <div class="footer_nav">
                         <div class="footer-navigation">
                           <div class="footer-links-holder">
                             <ul class="footer-links">
-                                <li><a href="">Private</a></li>
-                                <li><a href="">Prototype</a></li>
+                                <li><a href="">Explorer</a></li>
                             </ul>
                           </div>
                           <div class="footer-links-holder">
                             <ul class="footer-links">
-                              <li><a href="">FAQ</a></li>
-                              <li><a href="/mediaKite" target="_blank">Media Kit</a></li>
-                              <li><a href="">Contact Us</a></li>
+                              <li><a href="/kit" target="_blank">Media Kit</a></li>
                             </ul>
                           </div>
                           <div class="footer-links-holder">
@@ -1163,7 +1179,7 @@
                     </div>
                 </div>
                 <div class="social_media">
-                    <span class="copy_right">© 2018 FreitX Network. All Rights Reserved.</span>
+                    <span class="copy_right">© 2019 FreitX Network. All Rights Reserved.</span>
 
                     <div class="soc_md_link">
                         <a href="https://www.reddit.com/r/freitx/" target="_blank" class="icon red"></a>

@@ -46,13 +46,6 @@ let blacklist = [
     '188.169.76.7' // LW
 ];
 
-// // CORS enable in the middleware to make "public" folder available for everyone
-// app.use((req, res, next) => {
-//     res.header("Access-Control-Allow-Origin", "*");
-//     res.header("Access-Control-Allow-Headers", "X-Requested-With");
-//     next();
-// });
-
 
 // Render index.html during direct connection
 app.get('/', (req, res) => {
@@ -127,4 +120,4 @@ app.use('/*', (req, res) => {
 });
 
 // Host application on dedicated port
-app.listen(port || 3000);
+app.listen(port || 3002);

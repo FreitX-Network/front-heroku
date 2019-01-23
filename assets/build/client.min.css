@@ -519,7 +519,7 @@ form {
 }
 /*
 *   freitix network
-*   General css file (C)2018y.
+*   General css file (C)2019.
 */
 
 *,
@@ -1115,6 +1115,24 @@ p > span.bullet:after {
 
 .footer-navigation .footer-links-holder .footer-links li a:hover {
   color: #17c2e8;
+}
+
+.footer-navigation .footer-links-holder .footer-links li button {
+  text-decoration: none;
+  color: #fff;
+  text-align: left;
+  line-height: 1.2;
+  outline: none;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+.footer-navigation .footer-links-holder .footer-links li button:hover {
+  color: #17c2e8;
+  outline: none;
+  border: none;
+  background: transparent;
 }
 
 .social_media {
@@ -3339,6 +3357,22 @@ path {
 
 /*   <<  TEAM PAGE  END >>     */
 
+/*   <<  Advisor PAGE  start >>     */
+
+.team_list_group .team_list_item.ad_1 {
+  background-image: url("../images/team/ad_1.jpg");
+}
+
+.team_list_group .team_list_item.ad_2 {
+  background-image: url("../images/team/ad_2.jpg");
+}
+
+.team_list_group .team_list_item.ad_3 {
+  background-image: url("../images/team/ad_3.jpg");
+}
+
+/*   <<  Advisor PAGE  END >>     */
+
 /* .section SECTION
    –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -3445,8 +3479,8 @@ path {
 .timeline ol li div {
   position: absolute;
   left: calc(100% + 6px);
-  width: 300px;
-  height: 115px;
+  width: 365px;
+  height: 135px;
   padding: 2px 12px;
   font-size: 12px;
   white-space: normal;
@@ -3498,6 +3532,32 @@ path {
   font-size: 14px;
   color: #fff;
   letter-spacing: 1.2px;
+}
+
+.timeline ol li div .tim_cen p {
+  display: inline-block;
+  position: relative;
+  padding-left: 3px;
+  line-height: 1.3;
+}
+
+.timeline ol li div .tim_cen p::before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  top: 6px;
+  bottom: 0px;
+  width: 4px;
+  height: 4px;
+  transform: rotate(45deg);
+  background: #de744f;
+  border: 2px solid #de744f;
+  z-index: 12;
+}
+
+.timeline ol li.finish div .tim_cen p::before {
+  background: #17c3e9!important;
+  border: 2px solid #17c3e9;
 }
 
 .timeline ol li div::before {
@@ -3628,6 +3688,135 @@ path {
 #countdown-container .ClassyCountdown-wrapper .ClassyCountdown-value {
   font-size: 29px!important;
   margin-top: -32px!important;
+}
+
+/*      Popup - modals      */
+
+.modal.fade.in {
+  width: 100%;
+  height: 100%;
+  display: flex!important;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 30000;
+  background-color: rgba(230, 230, 230, 0.6);
+}
+
+.modal-dialog {
+  width: 992px!important;
+  margin: 30px auto;
+}
+
+.modal-dialog .modal-content {
+  background-color: rgba(93, 93, 93,0.9);
+}
+
+.modal-body.accordeon {
+  padding: 0;
+}
+
+.modal-header {
+  border-bottom: 1px solid #777777!important;
+}
+
+.modal-header .close {
+  margin-top: -8px!important;
+}
+
+.close {
+  float: right;
+  font-size: 33px!important;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff!important;
+  opacity: 1!important;
+  text-shadow: none!important;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+/* .modal-dialog .modal-content . */
+
+.accordeon {
+  width: 100%;
+  font-family: helvetica, sans-serif;
+}
+
+.accordeon-title {
+  background-color: #7b7b7b;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #929292;
+  margin: 0;
+}
+
+.accordeon-title:after {
+  content: '+';
+  float: right;
+  font-size: 25px;
+  color: #00BCD4;
+  width: 20px;
+  height: 20px;
+  line-height: 13px;
+  text-align: center;
+}
+
+.accordeon-title.is-opened:after {
+  content: '-';
+  font-size: 33px;
+  line-height: 10px;
+}
+
+.accordeon-content {
+  display: none;
+  padding: 10px;
+}
+
+/*   contact us     */
+
+.cont_us {
+  width: 100%;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.cont_us form {
+  width: 100%;
+}
+
+.cont_us input[type=text],
+textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  color: #191919!important;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+.cont_us textarea {
+  height: 180px!important;
+  margin: 10px 0;
+}
+
+.cont_us input[type=submit] {
+  background-color: #17c2e8;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
 }
 /*!
  * Hamburgers
@@ -5249,7 +5438,7 @@ path {
   .mobile_c {
     display: flex!important;
     position: relative;
-    height: 6020px;
+    height: 6980px;
     width: 100%;
     flex-direction: column;
     justify-content: flex-end;
@@ -5600,7 +5789,7 @@ path {
 
 @media only screen and (max-width: 580px) {
   .mobile_c {
-    height: 6260px;
+    height: 7260px;
   }
 
   .heder_conteiner {
@@ -5648,7 +5837,7 @@ path {
 
 @media only screen and (max-width: 414px) {
   .mobile_c {
-    height: 7640px;
+    height: 8630px;
     display: flex!important;
     justify-content: flex-end;
     align-items: flex-end;

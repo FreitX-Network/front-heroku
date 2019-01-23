@@ -62,25 +62,6 @@ app.controller('landingController', function($scope, $rootScope, $http, $cookieS
         $cookieStore.put('hideCookies', true);
     }
 
-    // mobile rotate
-    // $scope.$watch('rotate', function(width, height){
-    //
-    //     $scope.width = window.innerWidth;
-    //     $scope.height = window.innerHeight
-    //
-    //     if ( $scope.width > $scope.height ) {
-    //         $scope.rotate = true;
-    //
-    //         console.log('_1111');
-    //     }
-    //     else {
-    //         $scope.rotate = false;
-    //
-    //         console.log('_2222');
-    //     }
-    //
-    // });
-
     // Subscribe
     $scope.subscribe = function() {
         $http.post($scope.apiLocation + '/subscribe', { email: $scope.email })
