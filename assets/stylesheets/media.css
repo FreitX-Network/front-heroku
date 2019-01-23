@@ -1,0 +1,951 @@
+/*
+*
+* media css
+*
+*/
+
+@media only screen and (max-width: 1440px){
+    .scrollsections {
+        height: 670px;
+    }
+    .right_block {
+        width: 35px;
+    }
+    #scrollsections-navigation {
+        width: 120px;
+    }
+    .scrollsections-menuitem {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .con_lay {
+        width: 100%;
+        height: 100%;
+    }
+    .con_lay .containter_p {
+        width: 85%;
+        height: 75%;
+        padding-left: 50px;
+    }
+    .con_lay .containter_p::before {
+        width: 35px;
+    }
+    .con_lay .containter_p .left_bk {
+        padding-top: 19px;
+    }
+    .con_lay .containter_p .left_bk h1 {
+        font-size: 30px;
+    }
+    .con_lay .containter_p .left_bk h1 .blue_ln {
+        margin-top: 8px;
+    }
+    .con_lay .containter_p .left_bk h3 {
+        font-size: 18px;
+        margin-top: 7px;
+        margin-bottom: 18px;
+    }
+    .network_p {
+        width: 90%;
+        line-height: 1.1;
+        font-size: 14px;
+    }
+    .architecture_text {
+        line-height: 1.1;
+        font-size: 14px;
+        padding:15px 0px 0 0px;
+    }
+    .architecture_text > .bottom_line {
+        margin-top: 5px;
+    }
+    .architecture_text > .bottom_line > p {
+        line-height: 1.1;
+        font-size: 14px;
+        margin: 2px 0;
+    }
+    .token_card .left_card, .token_card .right_card {
+        width: 45%;
+        height: 410px;
+        margin: 50px 25px 0 25px;
+    }
+    .token_card .left_card > .img, .token_card .right_card > .img {
+        height: 98px;
+        background-size: 21%;
+    }
+    .token_card .left_card > .list_info, .token_card .right_card > .list_info {
+        margin: 9px 0;
+    }
+    .token_card .left_card > .list_info > p, .token_card .right_card > .list_info> p {
+        line-height: 1.2;
+    }
+    .con_lay.network .containter_p .hexagon_group {
+        height: 490px;
+    }
+    .hex_group {
+        width: 470px;
+    }
+    .hexagon {
+        width: 100px;
+        height: 66.83px;
+    }
+    .hexagon:before {
+        top: -36.4975px;
+    }
+    .hexagon:after {
+        bottom: -35.4975px;
+    }
+    .hexagon:before, .hexagon:after {
+        content: "";
+        position: absolute;
+        width: 71.99px;
+        height: 70.99px;
+        left: 12.5025px;
+    }
+    .hexagon > .icon {
+        top: -23px;
+        left: -25px;
+        width: 90px;
+        height: 90px;
+    }
+    .hex_4 {
+        top: -34px;
+    }
+    .hex_2 {
+        top: 32%;
+        left: 62%;
+    }
+    .hex_3 {
+        top: 49%;
+        left: 50.5%;
+    }
+    .hex_5 {
+        top: 49%;
+        left: 28%;
+    }
+    .hex_6 {
+        top: 32%;
+        left: 17%;
+    }
+    .hex_7 {
+        top: 15%;
+        left: 28.4%;
+    }
+    .network h3 {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .hexagon .info > p {
+        line-height: 1.1;
+        font-size: 11px;
+    }
+    .hexagon .info {
+        width: 206px;
+    }
+    .hex_7 .info {
+        top: -126%;
+        left: -162%;
+    }
+    .hex_7 .info::before {
+        top: 55px;
+        right: -2px;
+    }
+    .hex_6 .info {
+        left: -130%;
+        width: 135px;
+    }
+    .hex_6 .info::before {
+        left: 169px;
+    }
+    .hex_5 .info {
+        bottom: -130%;
+        left: -161%;
+    }
+    .hex_2 .info {
+        width: 137px;
+    }
+    .hex_2 .info::before {
+        left: -29px;
+    }
+    .hex_1 .info {
+        top: -126%;
+    }
+    .hex_1 .info::before {
+        top: 52px;
+        left: -3px;
+    }
+    .architecture_text .architecture_p {
+        line-height: 1.1;
+        font-size: 14px;
+    }
+    .usecases_tit_text {
+        width: calc(100% - 0px);
+        margin-left: 0;
+    }
+    .usecases_tit_text p {
+        width: 90%;
+        line-height: 1.3;
+    }
+    .carousel.slide {
+        width: 70%;
+        height: 50%;
+    }
+    .carousel.slide .carousel-indicators {
+        bottom: -2px;
+    }
+    .team_list_group .team_list {
+        height: 120px;
+    }
+    .team_list_group .team_list_item {
+        width: 124px;
+        height: 124px;
+        margin: 0 27px;
+    }
+    .team_list_group .team_list a .fab {
+        top: 115px;
+    }
+    .team_list_group .team_list a .name_block {
+        bottom: -110px;
+        left: 4px;
+    }
+    .team_list_group .team_list a .name_block h3 {
+        font-size: 13px;
+    }
+    .team_list_group .team_list a .name_block hr {
+        margin: 3px 0;
+    }
+    .team_list_group .team_list a .name_block p {
+        font-size: 11px;
+        line-height: 1.1
+    }
+    .timeline {
+        margin-top: 50px;
+    }
+    .timeline ol {
+        padding: 156px 0;
+    }
+    .architecture_map {
+        height: 500px;
+    }
+    .arch_map {
+        width: 450px;
+    }
+    .triangel_c {
+        height: 82px;
+        margin-top: 265px;
+    }
+    .triangel_c > .top_c {
+        border-width: 0 24px 38px 24px;
+    }
+    .triangel_c > .top_c::before {
+        font-size: 26px;
+        top: 27%;
+        left: 38%;
+    }
+    .triangel_c > .top_c::after {
+        left: 6px;
+        top: -4.4px;
+        border-width: 0 29px 44px 29px;
+    }
+    .triangel_c > .bottom_c {
+        border-width: 38px 24px 0 24px;
+    }
+    .triangel_c > .bottom_c::after {
+        left: 6px;
+        bottom: -4.4px;
+        border-width: 44px 29px 0px 29px;
+    }
+    .triangel_s {
+        margin-top: -238px;
+    }
+    .triangel_s > .top_s {
+        border-width: 80px 45px 0 45px;
+    }
+    .triangel_s > .bottom_s {
+        border-width: 86px 48px 0 48px;
+    }
+    .triangel_s > .top_s::before {
+        font-size: 34px;
+    }
+    .triangel_s > .top_s::after {
+        left: 16px;
+        font-size: 11px;
+    }
+    .triangel_s.bottom > .top_s {
+        border-width: 80px 45px 0 45px;
+    }
+    .triangel_s.bottom > .top_s::before {
+        font-size: 34px;
+    }
+    .triangel_s.bottom > .bubble > .item::after {
+        height: 37px;
+        left: 11px;
+    }
+    .triangel_s.bottom > .bubble > .item::before {
+        width: 130px;
+        color: #b2b2b2;
+        font-size: 10px;
+        top: 5px;
+        left: 14px;
+    }
+    .triangel_n {
+        width: 190px;
+        height: 147px;
+        margin-top: -76px;
+        margin-left: 186px;
+    }
+    .triangel_n > .bottom_n {
+        top: -5px;
+        border-width: 0 78px 140px 78px;
+    }
+    .triangel_n > .top_n {
+        border-width: 0 72px 132px 72px;
+    }
+    .triangel_n > .top_n::before {
+        top: 49px;
+        font-size: 41px;
+    }
+    .triangel_n > .top_n::after {
+        bottom: 40px;
+        left: 26%;
+        font-size: 14px;
+    }
+    .triangel_n > .bubble > .item::before {
+        width: 90px;
+        color: #b2b2b2;
+        font-size: 9px;
+        top: -20px;
+        left: 23px;
+    }
+    .triangers_arrow > .top_Line {
+        width: 151px;
+        bottom: 188px;
+        left: 37px;
+    }
+    .triangers_arrow > .top_Line::before {
+        left: 150px;
+    }
+    .triangers_arrow > .top_Line:after {
+        left: 152px;
+        transform: rotate(7deg);
+    }
+    .triangers_arrow > .top_Line > .arrw {
+        right: -11px;
+    }
+    .triangers_arrow > .top_Line > .arrw::before {
+        right: 1px;
+    }
+    .triangers_arrow::before {
+        width: 75px;
+        transform: rotate(35deg);
+        top: 132px;
+        left: 122px;
+    }
+    .triangers_arrow::after {
+        width: 72px;
+        top: 278px;
+        left: 170px;
+    }
+
+
+
+}
+@media only screen and (max-width: 1280px) {
+    .right_block .rb_menu .line_w { height: 85%; }
+    .right_block .rb_menu .line_w .circle { width: 120px; height: 120px; }
+    .right_block .rb_menu .line_w::before { height: 116%; top: -20px; left: 17px; }
+    .right_block .rb_menu .line_w::after { width: 139px; }
+
+    .scrollsections {
+        height: 800px;
+    }
+    .con_lay .containter_p {
+        width: 89%;
+        height: 80%;
+        padding-left: 50px;
+    }
+    .footer-wrapper .footer_nav {
+        width: calc( 100% - 200px);
+    }
+    .footer-navigation {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-navigation .footer-links-holder {
+        width: 150px;
+    }
+    .footer-navigation .footer-links-holder .footer-links li a {
+        line-height: 1;
+        font-size: 14px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .right_block .rb_menu .line_w { height: 85%; }
+    .right_block .rb_menu .line_w .circle { width: 120px; height: 120px; }
+    .right_block .rb_menu .line_w::before { height: 116%; top: -20px; left: 17px; }
+    .right_block .rb_menu .line_w::after { width: 139px; }
+
+    .scrollsections {
+        height: 800px;
+    }
+    .con_lay .containter_p {
+        width: 93%;
+        height: 80%;
+        padding-left: 50px;
+    }
+    .con_lay .containter_p .left_bk h1 {
+        font-size: 22px;
+    }
+    .con_lay .containter_p .left_bk h3 {
+        font-size: 16px;
+        margin-top: 4px;
+    }
+    #scrollsections-navigation {
+        width: 100px;
+    }
+    .scrollsections-menuitem {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+
+}
+@media (max-width: 992px) {
+    .heder_conteiner {
+        display: none;
+    }
+    .heder_conteiner.mob {
+        display: block;
+    }
+
+    .mobile_c {
+        display: flex!important;
+        position: relative;
+        height: 6020px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        background-color: rgba(0,0,0,0.22);
+    }
+    #page_screens,
+    #scrollsections-navigation,
+    .right_block,
+    .scrollsections {
+        display: none!important;
+    }
+    .heder_conteiner {
+        width: 100%!important;
+    }
+    .heder_conteiner .fx_logo{
+        top: 3px;
+        height: 58px;
+        margin: 0px 0px 0px 0px;
+        background-image: url(../images/logo_fx_f.png);
+        background-size: 84%;
+    }
+    .screen_list.one {
+        height: 500px;
+    }
+    .screen_list.us {
+        height: 780px;
+    }
+    .carousel.slide {
+        width: 100%;
+        padding: 15px;
+    }
+    .screen_list {
+        width: 100%;
+        height: 950px;
+        position: relative;
+    }
+    .con_lay {
+        position: relative;
+        height: 100%;
+    }
+    .con_lay.network .containter_p .left_bk {
+        width: 100%;
+    }
+    .token_card .left_card, .token_card .right_card {
+        width: 100%;
+        margin:0;
+    }
+    .token_card .left_card > .img, .token_card .right_card > .img {
+        height: 105px;
+        width: 200px;
+        background-size: 55%;
+        margin: 0 auto;
+    }
+    .token_card .left_card > .list_info, .token_card .right_card > .list_info {
+        margin: 9px 0px;
+    }
+    .network_p {
+        width: 100%;
+        line-height: 1.3;
+    }
+    .con_lay .containter_p .left_bk {
+        width: 100%;
+    }
+    .left_bk.tk {
+        height: 120px!important;
+    }
+    .token_card.page_card {
+        padding-top:0px;
+        position: relative;
+    }
+    .page_card {
+        padding-top: 80px;
+    }
+    .architecture_text {
+        padding: 15px;
+    }
+    .architecture_map_img {
+        width: 100%;
+        height: 50%;
+        position: relative;
+        top: 0;
+        right: 0;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../images/arch.png);
+    }
+    .heder_conteiner .fx_logo {
+        width: 215px!important;
+        background-size: 94%;
+    }
+    .f_cont {
+        margin-left: 0;
+        width: 100%;
+        height: 245px;
+        padding: 0 15px;
+    }
+    .f_cont .logo {
+        display: none;
+    }
+    .footer-wrapper .footer_nav {
+        width: 100%;
+    }
+    .screen_list.footer {
+        height: 250px;
+        background-color: none!important;
+    }
+    .con_lay .containter_p{
+        background-color: transparent!important;
+    }
+    #showRight {
+        display: block!important;
+    }
+    .cbp-spmenu-vertical {
+        display: block!important;
+    }
+    .scrollsections-menuitem.active-scrollsection,
+    .cbp-spmenu a:hover, .cbp-spmenu a:active, .cbp-spmenu a:focus {
+        margin-left:0!important;
+    }
+    .scrollsections-menuitem.active-scrollsection,
+    .scrollsections-menuitem.active-scrollsection:after,
+    .scrollsections-menuitem:hover:after,
+    .scrollsections-menuitem::before {
+        display: none;
+        margin-left:0!important;
+    }
+    .heder_conteiner .fx_logo {
+        left: 20px;
+    }
+    .scrollsections {
+        height: 800px;
+    }
+    .con_lay .containter_p {
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+        margin-left: 0;
+        box-shadow:none;
+    }
+    .con_lay .containter_p .left_bk h1 {
+        font-size: 22px;
+    }
+    .con_lay .containter_p .left_bk h3 {
+        font-size: 16px;
+        margin-top: 4px;
+        line-height: 1.3;
+    }
+    .architecture_text .architecture_p {
+        line-height: 1.3;
+    }
+    #scrollsections-navigation {
+        width: 100px;
+    }
+    .scrollsections-menuitem {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .con_lay .containter_p::before {
+        width: 1px!important;
+    }
+    .con_lay .containter_p,
+    .con_lay.network .containter_p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .page_card {
+        width: 100%;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .architecture_map,
+    .architecture_text {
+        width: 100%;
+    }
+    .net_img {
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        top: 42%;
+        right: 0;
+        background-size: 200%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../images/network.svg);
+    }
+    .con_lay .containter_p .left_bk h1 .blue_ln {
+        width: 34%;
+    }
+    .screen_list.rd {
+        height: 1400px;
+    }
+    .roadmap_card .time_line {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 44px;
+    }
+    .roadmap_card .time_line div {
+        width: 100%;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        line-height: 1.3;
+        position: relative;
+    }
+    .roadmap_card .time_line .finish::before {
+        background: #1db2d6;
+        border: 2px solid #1db2d6;
+    }
+    .roadmap_card .time_line .finish::after {
+        background: #1db2d6;
+    }
+    .roadmap_card .time_line div::before {
+        position: absolute;
+        content: '';
+        width: 16px;
+        height: 16px;
+        left: 18.2px;
+        top: 16px;
+        background: #de744f;
+        border: 2px solid #de744f;
+        transform: rotate(45deg);
+        z-index: 12;
+    }
+    .roadmap_card .time_line div::after {
+        position: absolute;
+        content: '';
+        width: 3px;
+        height: 100%;
+        left: 25px;
+        top: 0;
+        background: #fff;
+    }
+    .roadmap_card .time_line div .time_cen {
+        padding-left: 0;
+        overflow: hidden;
+    }
+    .roadmap_card .time_line div time{
+        font-weight: bold;
+        margin: 12px 0 5px 0;
+    }
+    .roadmap_card .time_line div .time_cen strong {
+        letter-spacing: 1.2px;
+        font-weight: bold;
+    }
+    .roadmap_card .time_line div .time_cen::after,
+    .roadmap_card .time_line div.time_cen::before {
+        display: none;
+    }
+
+    .team_list.mob {
+        display: inline-block;
+        width: 100%;
+        height:845px;
+        padding: 15px;
+    }
+    .team_list.mob .team_list_item {
+        float: left;
+        margin: 30px 30px 60px 30px;
+    }
+
+
+}
+@media only screen and (max-width: 780px) {
+    .heder_conteiner {
+        width: 100%!important;
+    }
+    .con_lay .containter_p .left_bk .button_line .btn_link_parent_gradient > a {
+        padding: 12px;
+        font-size: 14px;
+        color: #fff;
+    }
+    .heder_conteiner.navbar-scroll {
+        width: 100%;
+    }
+
+
+}
+@media only screen and (max-width: 580px) {
+    .mobile_c {
+        height: 6260px;
+    }
+    .heder_conteiner {
+        width: 100%!important;
+    }
+    .heder_conteiner.navbar-scroll {
+        width: 100%;
+    }
+    .architecture_map_img {
+        background-size: 390px;
+    }
+    .screen_list.us {
+        height: 390px;
+    }
+    .screen_list.us .page_card {
+        padding-top: 107px;
+    }
+    .screen_list.te {
+        height: 1200px;
+    }
+    .screen_list.te .con_lay .containter_p {
+        display: flex;
+        align-items: flex-start;
+    }
+    .screen_list.te .team_list_group {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+
+
+}
+@media only screen and (max-width: 480px) {
+    .heder_conteiner {
+        width: 100%!important;
+    }
+
+
+}
+@media only screen and (max-width: 414px) {
+    .mobile_c {
+        height: 7640px;
+        display: flex!important;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .screen_list.rd {
+        height: 1520px;
+    }
+    .heder_conteiner {
+        width: 100%!important;
+    }
+    .screen_list.te {
+        height: 2540px;
+    }
+    .screen_list.one {
+        height: 420px;
+    }
+    .team_list.mob .team_list_item {
+        float: none;
+        margin: 0px auto 85px auto;
+        width: 180px;
+        height: 180px;
+    }
+    .team_list_group .team_list a .fab {
+        top: 159px;
+    }
+    .team_list_group .team_list a .name_block {
+        bottom: -161px;
+        left: 0px;
+    }
+    .roadmap_card .time_line div {
+        width:99%;
+        font-size: 14px;
+        padding-left: 19px;
+        padding-right: 15px;
+    }
+    .roadmap_card .time_line div::after {
+        width: 2px;
+        left: 8px;
+    }
+    .roadmap_card .time_line div::before {
+        width: 8px;
+        height: 8px;
+        left: 5px;
+        top: 27px;
+    }
+    .screen_list.footer .social_media {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .screen_list.footer {
+        height: 312px;
+    }
+    .screen_list.footer .f_cont {
+        height: 299px;
+        padding: 0;
+    }
+    .footer-navigation .footer-links-holder {
+        padding: 10px;
+        font-size: 13px;
+    }
+    .footer-navigation .footer-links-holder:nth-child(1) {
+        padding-left: 15px;
+        padding-right: 5px;
+    }
+    .footer-navigation .footer-links-holder:nth-last-child(1) {
+        padding-left: 5px;
+        padding-right: 15px;
+    }
+    .screen_list.us {
+        height: 370px;
+    }
+    .heder_conteiner.navbar-scroll {
+        background: rgba(0,0,0,0.9);
+    }
+    .heder_conteiner .fx_logo {
+        left: 6px;
+        background-size: 78%;
+    }
+    .network_p {
+        line-height: 1.3;
+    }
+    .cbp-spmenu {
+        background: rgba(0,0,0, 0.9);
+    }
+    .screen_list.net {
+        height: 800px;
+    }
+    .net_img {
+        height: 71%;
+        top: 0;
+        position: relative;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../images/network3.png);
+    }
+    .form.fx.test {
+        width: 100%!important;
+        border-radius: 4px;
+        margin: 65px 0 30px 0;
+    }
+    .con_lay .containter_p .left_bk h1 {
+        font-size: 20px;
+    }
+    .con_lay .containter_p .left_bk h3 {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .con_lay .containter_p .left_bk .button_line {
+        width: 100%;
+    }
+    .con_lay .containter_p .left_bk .button_line .btn_link_parent_gradient {
+        background: rgba(0,0,0,0.3);
+        box-shadow: none;
+        border-radius: 4px;
+    }
+    .con_lay .containter_p .left_bk .button_line .btn_link_parent_gradient:nth-child(2) {
+        margin: 0 4px;
+    }
+    .screen_list.arc {
+        height: 870px;
+    }
+    .architecture_map_img {
+        background-size: 280px;
+        height: 30%;
+    }
+    .token_card .left_card > .img, .token_card .right_card > .img {
+        height: 160px;
+        width: 200px;
+        background-size: 83%;
+        margin: 0 auto;
+    }
+    .screen_list.tk {
+        height: 1115px;
+    }
+    .token_card .right_card {
+        margin-top: 22px;
+    }
+    .tit {
+        margin-top: 22px!important;
+        margin-bottom: 4px!important;
+        display: flex;
+        align-items: center;
+    }
+    p > span.bullet {
+        margin: 3px 15px 3px 0;
+    }
+    .token_card .left_card > .list_info > p, .token_card .right_card > .list_info> p {
+        line-height: 1.3;
+        font-size: 14px;
+    }
+    .token_card .left_card, .token_card .right_card {
+        height: 466px;
+    }
+    .architecture_text .architecture_p {
+        line-height: 1.3;
+        font-size: 14px;
+    }
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 380px) {
+    .heder_conteiner {
+        width: 100%!important;
+    }
+
+
+}
+@media only screen and (max-width: 360px) {
+    .heder_conteiner {
+        width: 100%!important;
+    }
+    .net_img {
+        top: 40px;
+    }
+
+
+}
+@media only screen and (max-width: 320px) {
+    .heder_conteiner {
+        width: 100%!important;
+    }
+
+
+}

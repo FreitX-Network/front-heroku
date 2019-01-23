@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'LeelaUIb';
+  src: url('LeelaUIb.eot');
+  src: url('LeelaUIb.woff2') format('woff2'),
+       url('LeelaUIb.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeelawadeeUI-Bold';
+  src: url('LeelawadeeUI-Bold.woff') format('woff'),
+       url('LeelawadeeUI-Bold.ttf') format('truetype'),
+       url('LeelawadeeUI-Bold.svg#LeelawadeeUI-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

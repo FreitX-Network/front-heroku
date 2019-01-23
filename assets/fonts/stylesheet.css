@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Leelawadee UI';
+    src: url('LeelawadeeUI.eot');
+    src: url('LeelawadeeUI.eot?#iefix') format('embedded-opentype'),
+        url('LeelawadeeUI.woff2') format('woff2'),
+        url('LeelawadeeUI.woff') format('woff'),
+        url('LeelawadeeUI.ttf') format('truetype'),
+        url('LeelawadeeUI.svg#LeelawadeeUI') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
